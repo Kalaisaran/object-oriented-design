@@ -28,6 +28,7 @@ public class ParkingLotClientMain {
         board.update(lot.getAllSpots());
         board.showFreeSlot();
 
+
         // ----------------- SCENARIO 2: CUSTOMER EXITS AND PAYS -----------------
         System.out.println("\n→→→ SCENARIO 2: Customer exits and pays\n");
 
@@ -38,6 +39,7 @@ public class ParkingLotClientMain {
         System.out.println("-> Updating display board after exit:");
         board.update(lot.getAllSpots());
         board.showFreeSlot();
+
 
         // --------- SCENARIO 3: FILLING LOT AND REJECTING ENTRY IF FULL ---------
         System.out.println("\n→→→ SCENARIO 3: Multiple customers attempt to enter; lot may become full\n");
